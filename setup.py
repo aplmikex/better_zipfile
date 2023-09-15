@@ -1,11 +1,11 @@
 from setuptools import setup
 import pathlib
-from version import __version__
 
 here = pathlib.Path(__file__).parent.resolve()
 
 long_description = (here / "README.md").read_text(encoding="utf-8")
 
+__version__ = '0.0.3'
 
 setup(
     name="better_zipfile",
